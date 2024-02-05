@@ -65,6 +65,7 @@ body {
 a {
   color: lightgray;
   margin: 8px;
+  font-size: 21px;
 }
 
 a:hover {
