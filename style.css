@@ -7,7 +7,8 @@ body {
 
 .header {
   background-color: #282858;
-  padding: 25px;
+  padding: 15px;
+  /* Adjusted padding for smaller screens */
 }
 
 .header span {
@@ -19,25 +20,28 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 45px;
+  font-size: 30px;
+  /* Adjusted font size for smaller screens */
 }
-
 
 .header h3 {
   color: white;
   font-family: fantasy;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  /* Adjusted font size for smaller screens */
 }
 
 .inner {
   border: 1px solid #707070;
-  width: 600px;
+  width: 90%;
+  /* Adjusted width for smaller screens */
   margin: auto;
 }
 
 .content {
-  padding: 25px;
+  padding: 15px;
+  /* Adjusted padding for smaller screens */
 }
 
 .content p {
@@ -45,13 +49,16 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 23px;
-  width: 900px;
+  font-size: 18px;
+  /* Adjusted font size for smaller screens */
+  width: 90%;
+  /* Adjusted width for smaller screens */
   margin: auto;
 }
 
 .footer {
-  padding: 25px;
+  padding: 15px;
+  /* Adjusted padding for smaller screens */
   background-color: #282858;
 }
 
@@ -65,9 +72,18 @@ body {
 a {
   color: lightgray;
   margin: 8px;
-  font-size: 21px;
+  font-size: 18px;
+  /* Adjusted font size for smaller screens */
 }
 
 a:hover {
   color: white;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .inner {
+    width: 95%;
+    /* Further adjusted width for very small screens */
+  }
 }
